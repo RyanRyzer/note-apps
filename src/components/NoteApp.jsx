@@ -36,6 +36,7 @@ class NoteApp extends React.Component {
                         body,
                         imageUrl,
                         createdAt: new Date().toISOString(),
+                        archived: false
                     }
                 ]
             }
